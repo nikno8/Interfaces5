@@ -20,7 +20,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-    implementation 'org.postgresql:postgresql:42.6.0'
+//    implementation 'org.postgresql:postgresql:42.6.0'
+//    implementation 'mysql:mysql-connector-java:8.0.27'
+    runtimeOnly 'com.h2database:h2'
 
 
     compileOnly 'org.projectlombok:lombok'
